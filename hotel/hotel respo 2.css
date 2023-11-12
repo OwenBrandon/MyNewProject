@@ -1,0 +1,373 @@
+@media only screen and (min-width:900px){
+ .wrap{
+    height: 650px;
+    padding-top: 20%;
+  }
+  
+  .wrap .check-in{
+    width: 15%;
+    padding-top: 3%;
+    font-weight: lighter;
+  }
+
+  .wrap .check-out{
+    width: 15%;
+    padding-top: 3%;
+    font-weight: lighter;
+
+  }
+
+  .wrap .guest{
+    width: 15%;
+    padding-top: 3%;
+    display: block;
+    font-weight: lighter;
+
+  }
+  
+  .wrap .check{
+    width: 15%;
+    padding-top: 3%;
+    font-weight: lighter;
+
+  }
+
+
+
+  
+  .sp {
+        padding: 0px 340px 0px;
+  margin-top: 30px;
+    }
+    
+    .wrap1 .in {
+        font-size: 33px;
+        padding-top:30px ;
+    }
+
+    .wrap2 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .Swrap{
+      flex-direction: row;
+    }
+
+    .card1 {
+      width: 25%;
+    }
+
+    .card2 {
+      width: 25%;
+    }
+
+    .card3 {
+     width: 25%;
+    }
+
+
+
+      /* for the restaurant div */
+  .resto{
+    width: 100%;
+  height: 550px;
+  background-color:white;
+  margin-top: 5%;
+  }
+  .rest{
+    background-color:white ;
+   
+  }
+
+    /* for the second header */
+    .resto .text {
+      background-color:white ; 
+    }
+    /* the header in the restaurant */
+ .resto .inv{
+background-color: white ;  
+}
+hr{
+  border-top: 3px solid rgb(194, 194, 194);
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+
+
+/* the buttons in the live music */
+.resto button.in1{
+  padding: 8px 25px;
+  margin-left: 35%;
+  color: orange;
+  margin-top: 5%;
+  background-color: white;
+  border: 2px solid orange;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:768px){
+  
+
+
+
+  .check{
+    width:30%;
+    height: 140px;
+    background-color: rgb(14, 14, 63);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5%;
+    cursor: pointer;
+  }
+
+  .check-in{
+    width: 30%;
+    height: 140px;
+    background-color:white;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5%;
+    cursor: pointer;
+    border-right: 2px solid grey;
+    display: block;
+  }
+
+  .check-out{
+    width: 30%;
+    height: 140px;
+    background-color:white;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5%;
+    cursor: pointer;
+    border-right: 2px solid grey;
+display: block;
+  }
+
+  .guest{
+    width: 30%;
+    height: 140px;
+    background-color:white;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5%;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  input[type=date] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    font-family: arial;
+    text-transform: uppercase;
+    background-color: white;
+  }
+  
+
+  input[type=number] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:none;
+  font-family: arial;
+  text-transform: uppercase;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+  
+  
+
+
+
+
+
+    .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin-bottom: 7%;
+      }
+
+      .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin-bottom: 7%;
+      }
+
+      .card3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin-bottom: 7%;
+      }
+
+      .livem{
+  width: 100%;
+  height: 550px;
+  background-color: rgb(30, 30, 59);
+  display: flex;
+  flex-direction: row;
+}
+
+.imgmu{
+  width: 50%;
+  display: block;
+}
+
+.lip{
+  width: 50%;
+}
+
+
+.soho{
+  width: 100%;
+  height: 550px;
+  background-color: rgb(38, 38, 65);
+  display: flex;
+  flex-direction: row;
+  margin-top: -5%;
+}
+.imgso{
+  width: 50%;
+  display: block;
+}
+
+.eat{
+  width: 50%;
+}
+
+
+.resto{
+  width: 90%;
+height: 500px;
+background-color: white;
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+margin-left: 5%;
+}
+
+.imgrest{
+  width: 50%;
+  display: block;
+}
+
+.rest{
+  width: 50%;
+  background-color: white;
+}
+
+.resto .inv{
+  background-color: white;
+}
+
+.resto .text{
+  background-color: white;
+}
+
+
+
+
+/* for the massage div */
+.mas{
+  width: 90%;
+height: 500px;
+background-color: white;
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+margin-left: 5%;
+margin-top: -5%;
+}
+
+.imgmas{
+  width: 50%;
+  display: block;
+}
+
+.ma{
+  width: 50%;
+  background-color: white;
+}
+
+/* this is for tablet view of the footer cards */
+/* for the main cards */
+.cardfooter {
+  max-width: 90%;
+}
+/* for the cards headers */
+.cardfooter h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62px;
+}
+
+/* for the header description */
+.cardfooter .des{
+  font-size: 42px;
+}
+
+/* for the texts in the footer cards */
+.cardfooter .text{
+  font-size: 38px;
+}
+
+/* for the list in the footer */
+.cardfooter ul{
+  font-size: 40px;
+}
+
+/* for the input field in footer */
+input[type=text]{
+    padding: 27px 30px;
+    width: 75%;
+    float: left;
+}
+/* for the button in the footer input */
+.subscribe{
+  width: 25%;
+  padding: 20px 30px;
+font-size: 26px;
+float: left;
+}
+
+
+
+
+}

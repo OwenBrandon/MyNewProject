@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.exline{
+  width: 100%;
+  background-color: rgb(231, 150, 0);
+  /* position:fixed;
+  top: 0; */
+}
+
+.exline h4{
+  float: right;
+  margin-right: 4%;
+  margin-top:1.5% ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+ 
+}
+
+.ex{
+  
+  margin-top: 0;
+  background-color: white;
+  color: black;
+}
+
+
+
+/* for the header and its menus */
+  /* for the heqader and its links */
+  #header ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(26, 36, 80);
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 15px;
+position: fixed;
+top: 0;
+width: 100%;
+}
+  
+ 
+  
+  #header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px 18px;
+    text-decoration: none;
+  }
+  
+  /* #header  li a:hover:not(.active) {
+    background-color: #8b0000;
+  } */
+
+  .logo{
+    display: none;
+  }
+  
+
+
+.wrap{
+    width: 100%;
+    height: 400px;
+    background-image: url(/images/opening.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check{
+  width: 55%;
+  height: 120px;
+  background-color: rgb(14, 14, 63);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: arial;
+  text-align: center;
+  padding-top: 7%;
+  cursor: pointer;
+}
+
+.guest{
+  display: none;
+}
+
+.check-out{
+  display: none;
+}
+
+.check-in{
+  display: none;
+}
+
+
+.wrap1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:4% ;
+}
+
+.wrap1 hr{
+  border-top: 3px solid grey;
+  width: 50px;
+  margin-top: 2%;
+  margin-right: 45%;
+}
+
+.wrap1 p{
+    padding-top: 0px;
+    font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+color: #555;
+}
+
+.wrap1 .in {padding: 0px 10px 0px;
+    text-align: center;
+    font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+
+
+}
+
+ .sp{
+    text-align: center;
+    font-size:17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px 10px 0px;
+color: #555;
+}
+
+button{
+    padding: 8px 18px;
+    background-color: rgb(224, 158, 34);
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+  }
+  
+  button:hover{
+    background-color: orange;}
+  
+
+
+  /* starting point of rooms */
+/* wraps and contain all the rooms card */
+  .wrap2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6%;
+  }
+
+
+  .Swrap{
+    flex-direction: column;
+  }
+
+  .wrap2 hr{
+    border-top: 1px solid grey;
+    width: 50px;
+    margin-top: 4%;
+    margin-right: 90%;
+    background-color: white;
+  }
+
+  .card1 {
+    border: 1px solid grey;
+    max-width: 320px;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+  }
+  
+  
+  button.card {padding: 10px 50px;
+    border: 2px solid peru;
+    color: peru;
+    background-color: white;
+    width: 80%;
+    cursor: pointer;
+  margin-bottom: 5%;
+  margin-right: 4%;
+  }
+  
+  button.card:hover {
+    background-color: peru;
+    color:white;
+    transition: 2s;
+  }
+  
+  .wrap2 p {
+    color: grey;
+text-align: justify;
+padding: 8px 15px 0px;
+background-color: white;
+
+
+  }
+
+  .wrap2 h2{
+    text-align: left;
+    font-weight: lighter;
+    padding-left: 15px;
+    background-color: white;
+
+  }
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 15%;
+    background-color: white;
+
+  }
+
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 15%;
+    background-color: white;
+
+  }
+
+  /* for the live music */
+  .livem{
+    width: 100%;
+  height: 530px;
+  background-color: rgb(30, 30, 59);
+  margin-top: 5%;
+  }
+
+
+  /* the image in the live music */
+.imgmu{
+  width: 50%;
+  display: none;
+}
+/* this one is for the body of the background img */
+  .lip{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(30, 30, 59) ;
+   
+  }
+/* the hwader in the live music */
+  .inview{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(30, 30, 59) ;  
+  padding-left: 10%;
+  padding-top: 10%;
+  font-size: larger;
+  padding-right: 5%;
+  }
+
+  /* for the second header */
+  .tex {
+    color: white;
+    font-family:serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(30, 30, 59) ; 
+    padding-left: 10%;
+  }
+
+  /* the mark in the headers */
+  mark {
+    color: rgb(189, 137, 42);
+    background-color: rgb(30, 30, 59) ;
+  }
+
+  /* the buttons in the live music */
+  button.in1{
+    padding: 8px 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+  }
+  button.in1:hover{
+    color: white;
+    background-color:rgb(30, 30, 59)  ;
+    border: 2px solid black;
+    transition: 1s;
+  }
+  
+
+
+
+
+
+  /* for the soho restaurant*/
+  .soho{
+    width: 100%;
+  height: 530px;
+  background-color: rgb(38, 38, 65);
+  margin-top: 5%;
+  }
+
+
+  /* the image in the live music */
+.imgso{
+  width: 50%;
+  display: none;
+}
+/* this one is for the body of the background img */
+  .eat{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(38, 38, 65) ;
+   
+  }
+/* the hwader in the live music */
+  .soho .inview{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(38, 38, 65) ;  
+  padding-left: 10%;
+  padding-top: 10%;
+  font-size: larger;
+  padding-right: 5%;
+  }
+
+  /* for the second header */
+  .soho .tex {
+    color: white;
+    font-family:serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(38, 38, 65) ; 
+    padding-left: 10%;
+  }
+
+
+
+  /* the buttons in the live music */
+  button.in1{
+    padding: 8px 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+  }
+  button.in1:hover{
+    color: white;
+    background-color:rgb(38, 38, 65)  ;
+    border: 2px solid black;
+    transition: 1s;
+  }
+  
+  
+  
+
+
+  /* for the restaurant div */
+  .resto{
+    width: 100%;
+  height: 550px;
+  background-color: white;
+  margin-top: 5%;
+  }
+
+
+  /* the image in the live music */
+.imgrest{
+  width: 50%;
+  display: none;
+}
+/* this one is for the body of the background img */
+  .rest{
+    width: 100%;
+    height: 500px;
+    background-color:white ;
+   
+  }
+/* the header in the restaurant */
+ .resto .inv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white ;  
+  padding-top: 10%;
+  font-size: larger;
+  padding-right: 5%;
+  text-align: center;
+  }
+ hr{
+    border-top: 3px solid grey;
+    width: 50px;
+    margin-left: 42%;
+    margin-top: 1%;
+    background-color: white;
+  }
+
+  /* for the second header */
+  .resto .text {
+    font-family:serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: white ; 
+text-align: center;
+  }
+
+ 
+  /* the buttons in the live music */
+  .resto button.in1{
+    padding: 8px 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+  }
+  .resto button.in1:hover{
+    color: white;
+    background-color:white  ;
+    border: 2px solid black;
+    transition: 1s;
+  }
+  
+
+
+    /* for the massage div */
+    .mas{
+      width: 100%;
+    height: 550px;
+    background-color: white;
+    margin-top: 5%;
+    }
+  
+  
+    /* the image in the live music */
+  .imgmas{
+    width: 50%;
+    display: none;
+  }
+  /* this one is for the body of the background img */
+    .ma{
+      width: 100%;
+      height: 500px;
+      background-color:white ;
+     
+    }
+  /* the header in the restaurant */
+   .mas .inv{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white ;  
+    padding-top: 10%;
+    font-size: larger;
+    padding-right: 10%;
+    text-align: center;
+    }
+   hr{
+      border-top: 3px solid grey;
+      width: 80px;
+      margin-left: 42%;
+      margin-top: 1%;
+      background-color: white;
+    }
+  
+    /* for the second header */
+    .mas .text {
+      font-family:serif;
+      font-size: 40px;
+      font-weight: bold;
+      background-color: white ; 
+  text-align: center;
+    }
+  
+   
+    /* the buttons in the massage music */
+    .mas button.in1{
+      padding: 8px 25px;
+      color: rgb(255, 255, 255);
+      margin-left: 25%;
+      margin-top: 10%;
+      background-color: white;
+  border: 2px solid orange;
+  color: orange;
+    }
+    .resto button.in1:hover{
+      
+      transition: 1s;
+    }
+    
+    /* the button in news card */
+    button.news {
+      padding: 8px 25px;
+      margin-top: 10%;
+      background-color: rgb(187, 108, 18);
+  color: white;
+  margin-right: 5%;
+  margin-bottom: 5%;
+    }
+   
+    
+  
+/* this wrap contains the footer and it links */
+  .footerwrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+    background-color: black;
+    }
+
+   
+/* this are the cards in the footer */
+    .cardfooter {
+      max-width: 330px;
+     margin-left: 5%;
+      margin-top: 10%;
+  color: white;
+    }
+/* this is for the header text in footer */
+    .cardfooter h3{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 33px;
+      color: white;
+      font-weight: bolder;
+      margin-bottom: 5%;
+    }
+
+/*  this is for the description found in footer*/
+    .cardfooter .des{
+      font-size: 22px;
+      color:rgb(190, 190, 190) ;
+      margin-bottom: 4%;
+    }
+
+    /* this is for the text found in the footer card */
+    .cardfooter .text{
+      font-size: 20px;
+      color:white ;
+      margin-bottom: 5%;
+font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* this is for the list found in the footer */
+    .cardfooter ul{
+      list-style-type: none;
+      font-size: 20px;
+      margin-bottom: 3%;
+font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* this is for the links in the footer */
+    .cardfooter li a{
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
+/* this is for the input field found in the footer */
+    input[type=text]{
+      width:100% ;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      margin: 8px 0;
+      border: 2px solid #324;
+      background-color: rgb(38, 38, 70);
+      color: white;
+    }
+
+input[type=text]:focus{
+  border: 2px solid #555;
+
+}
+/* this is for the button for in the input field */
+    .subscribe{
+      width: 50%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      background-color:rgba(255, 166, 0, 0.767);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+    }
+
+    

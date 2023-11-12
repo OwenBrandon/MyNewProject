@@ -1,0 +1,15 @@
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\bin\Debug\net6.0\c example tutorial.exe
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\bin\Debug\net6.0\c example tutorial.deps.json
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\bin\Debug\net6.0\c example tutorial.runtimeconfig.json
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\bin\Debug\net6.0\c example tutorial.dll
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\bin\Debug\net6.0\c example tutorial.pdb
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.csproj.AssemblyReference.cache
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.AssemblyInfoInputs.cache
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.AssemblyInfo.cs
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.dll
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\refint\c example tutorial.dll
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.pdb
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\c example tutorial.genruntimeconfig.cache
+C:\Users\Brandon\source\repos\c example tutorial\c example tutorial\obj\Debug\net6.0\ref\c example tutorial.dll

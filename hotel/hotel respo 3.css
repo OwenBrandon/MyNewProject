@@ -1,0 +1,110 @@
+@media only screen and (min-width:900px){
+
+.head{
+  height:550px;
+}
+
+.footerwrap{
+    flex-direction: row;
+}
+
+/* this is for tablet view of the footer cards */
+/* for the main cards */
+.cardfooter {
+    max-width: 330px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* for the cards headers */
+  .cardfooter h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  
+  /* for the header description */
+  .cardfooter .des{
+    font-size: 23px;
+  }
+  
+  /* for the texts in the footer cards */
+  .cardfooter .text{
+    font-size: 22px;
+  }
+  
+  /* for the list in the footer */
+  .cardfooter ul{
+    font-size: 18px;
+  }
+
+  /* .cardfooter li{
+    float:initial;
+  }
+   */
+  /* for the input field in footer */
+  input[type=text]{
+      padding: 17px 15px;
+      width: 60%;
+      float: left;
+  }
+  /* for the button in the footer input */
+  .subscribe{
+    width: 40%;
+padding: 14px 20px;
+    font-size: 20px;
+    
+  }
+
+  /* for the heqader and its links */
+  #header ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(26, 36, 80);
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 15px;
+position: fixed;
+top: 0;
+width: 100%;
+  }
+  
+  #header li {
+    float: right;
+  }
+
+  
+  #header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px 18px;
+    text-decoration: none;
+  }
+  
+  #header  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+
+  /* menu disapperear button */
+  .ex{
+    display: none;
+  }
+
+.exline{
+  display: none;
+}  
+
+
+.logo{
+  width: 280px;
+  padding-top: 5%;
+  margin-left: 3%;
+  display: block;
+}
+
+}
+
+
